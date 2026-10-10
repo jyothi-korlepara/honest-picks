@@ -137,3 +137,6 @@ img { max-width: 100%; display: block; }
 .hook { border-left: 4px solid var(--accent); padding: 4px 0 4px 18px; margin: 8px 0 20px; }
 .hook p { margin: 0 0 8px; font-size: 1.05rem; }
 .hook-question { font-size: 1.3rem !important; font-weight: 700; line-height: 1.35; }
+
+/* Half star: left half in the star colour, right half in the empty colour */
+.half-star { background: linear-gradient(90deg, var(--star) 50%, var(--muted) 50%); -webkit-background-clip: text; background-clip: text; color: transparent; }
