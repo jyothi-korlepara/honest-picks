@@ -127,3 +127,8 @@ img { max-width: 100%; display: block; }
   .summary { grid-template-columns: 1fr; }
   .summary-img { max-width: 220px; margin: 0 auto; }
 }
+
+/* Product photos come on white; keep them whole and on white in both themes */
+.summary-img { background: #fff; }
+.card .thumb:has(img) { background: #fff; }
+.card .thumb img { object-fit: contain; }
