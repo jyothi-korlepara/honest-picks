@@ -132,3 +132,8 @@ img { max-width: 100%; display: block; }
 .summary-img { background: #fff; }
 .card .thumb:has(img) { background: #fff; }
 .card .thumb img { object-fit: contain; }
+
+/* Opening hook on a review */
+.hook { border-left: 4px solid var(--accent); padding: 4px 0 4px 18px; margin: 8px 0 20px; }
+.hook p { margin: 0 0 8px; font-size: 1.05rem; }
+.hook-question { font-size: 1.3rem !important; font-weight: 700; line-height: 1.35; }
