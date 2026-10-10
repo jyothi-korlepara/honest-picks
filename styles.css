@@ -140,3 +140,11 @@ img { max-width: 100%; display: block; }
 
 /* Half star: left half in the star colour, right half in the empty colour */
 .half-star { background: linear-gradient(90deg, var(--star) 50%, var(--muted) 50%); -webkit-background-clip: text; background-clip: text; color: transparent; }
+
+/* "Good to know" box for an honest downside */
+.heads-up { background: #fef3c7; color: #78350f; border-radius: var(--radius); padding: 18px 22px; margin: 28px 0; }
+.heads-up h2 { margin: 0 0 8px; font-size: 1.15rem; color: inherit; }
+.heads-up p { margin: 0; }
+@media (prefers-color-scheme: dark) {
+  .heads-up { background: #3a2e12; color: #fde68a; }
+}
